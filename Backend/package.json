@@ -2,7 +2,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
+    "seed": "node -r dotenv/config src/utils/seedProducts.js"
   },
   "dependencies": {
     "cookie-parser": "^1.4.7",
